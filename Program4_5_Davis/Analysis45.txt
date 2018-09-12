@@ -1,0 +1,54 @@
+David Davis 
+978105326
+CS202
+Program 4/5 Analysis
+Aug 11, 2016
+
+
+					Program 4/5 Analysis
+
+The scrabble program has come together nicely with the implementaion of the 
+pieces class, array class, and hands classes. The structures of the program are 
+designed using the node class and circular list class. The pieces class 
+allocates all tile tiles to be used in the game and holds the character value 
+for eace piece. The array class allows for tiles to be placed on the board and 
+displays the words played. The hands class takes care of each player's hand and 
+their ability to add or remove tiles to play words. Each class is currently 
+working well.
+
+The design for the pieces class was kept to a minimum. It only needed to hold 
+the character of each individual piece to be used by the other classes. The 
+allocation function builds the array for which all tiles will be randomly 
+selected. It was designed to hold the designated amount of each letter according
+to scrabble's official rules. Once allocated, tiles are easily accessed. Both 
+the hands and node classes are extended from the pieces class to be able to call
+the pieces methods when needed.
+
+The array class was much easier this time than in programs 1/2 but drew a few 
+problems. After much struggle, implementing the board class finally came 
+together. I was unable to use a board like last time that had the row and column
+indicators as ints and instead decided on lower case letters. The board design
+works and looks better than expected. All functions are currently working and
+handle adding tiles to the board. The only exception is the add word function 
+does not check to see if the tiles are in hand. It is left to the players to 
+determine if cheating. The hands class has one extended class, the player class.
+All functions in the parent hands class are working perfectly and can be used by
+ the extended player class. 
+
+Several major changes from my original plan have been made. Using an array for 
+the board was much more appropriate. An array allows for direct access to the 
+board squares with less overhead. I used function overloading on the board 
+display function so I could call the display at the beginning to show an empty 
+board. I can then call the same function but with a player as an argument to 
+display the player's score with the board. I also overloaded the addToScore 
+function to use the same function for regular scoring or triple word scoring. 
+Using the super key word in the node class I was able to use the pieces 
+pick_tile method in the node replaceTile function. I also used super in the 
+hands class to call the same pieces function. I made sure to implement a 
+abstract class to use dynamic binding of a extend class function. Each class has
+a very specific role and thus is object oriented. The hierarchical structure for
+the hands class is effective. I am very satisfied with my program design.
+
+    
+
+

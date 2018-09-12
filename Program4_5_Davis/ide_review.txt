@@ -1,0 +1,24 @@
+David Davis 
+978105326
+CS202
+Program 4/5 IDE Review 
+Aug 11, 2016
+
+
+					Program 4/5 IDE Review
+
+Program 4 and 5 we shifted are program design away from C++ and into Java.
+Java is not written using the same compiler program as C++ and requires a little
+more overhead. I decided to use Intellij IDEA to write my Java scrabble game. 
+
+At first using an IDE was rather overwhelming and I had many difficulties just 
+getting started. A simple task of creating a new class was not easy or natural 
+in this environment. I had a rough start just getting that far. Once I had the 
+classes started everything began to fall in line. I enjoyed the on-the-fly error
+and warning messages from Intellij. Although annoying they gave me confidence in
+my programing without have to compile and run every few methods. I rather 
+enjoy the seperate windows for each class and jumping between them is much 
+quicker than using vim. Running my program was even easier as I could still see 
+my code in a separate window. If I found a mistake I could change it while 
+stepping through my program. Although I had a rough start, I think Java and 
+using Intellij will be my new favorite language and IDE.
